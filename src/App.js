@@ -15,7 +15,7 @@ export default class App extends React.Component {
     return (
       <div className="Body">
         <div id="backgroundImage">
-          <div id="headerStyle"><h1 id="header" style={{ textAlign: "center", paddingTop: "1rem", paddingBottom: "3rem", color: "white" }}>Markdown Previewer</h1></div>
+          <div id="headerStyle"><h1 id="header">Markdown Previewer</h1></div>
           <div className="EditorArea">
             <div className="Tooltip" style={{ width: "80%", height: "2rem", margin: "auto", background: "rgba(255, 255, 255, 8%)", maxWidth: "600px", textAlign: "center", paddingTop: "1rem", color: "white", fontWeight: "bolder", fontSize: "1.1rem" }}>
               Editor
